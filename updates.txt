@@ -8,5 +8,8 @@
 
 # To-Do 
 
-- [ ] Fix help command
-- [ ] Make a alliance command
+- [x] Fix help command
+- [ ] Make a alliance command (Will make it when bot gets verified)
+- [ ] Make the rest of the website
+- [ ] Make status for the bot
+- [ ] Make some dev comands only for the developers
