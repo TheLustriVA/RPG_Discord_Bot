@@ -8,7 +8,7 @@
     "dev": "nodemon index.js",
     "postinstall": "sh postinstall.sh"
   },
-  "author": "Tormod & Markus",
+  "author": "Claws",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.2",
