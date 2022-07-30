@@ -8,7 +8,7 @@ const prettifyUser = (position, user, avatar) => {
 	const sideColor = "#45b6fe";
 	const patreonSupporter = getSupporterTitle(user.account.patreon);
 
-	const patreonUrl = "https://www.patreon.com/megarpg";
+	const patreonUrl = "https://www.patreon.com/";
 	const userElo = user.hero.elo || 1200;
 
 	let username = `( ${position} ) ${user.account.username}'s profile `;

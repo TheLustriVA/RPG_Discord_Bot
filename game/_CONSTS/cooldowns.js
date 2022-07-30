@@ -80,7 +80,7 @@ const generateSingleCdEmbed = (timeLeftInMs, user) => {
 	const cardTitle = "Cooldown";
 	const patreonInformation = user.account.patreon ?
 		"Your cooldown is lowered due to your Patreon support"
-		: "If you don't want to wait this much, you can help the bot in our [Patreon](https://www.patreon.com/megarpg), donators get some ingame benefits!";
+		: "If you don't want to wait this much, you can help the bot in our [Patreon](https://www.patreon.com/), donators get some ingame benefits!";
 	const cooldownEmbed = new Discord.MessageEmbed()
 		.setTitle(cardTitle)
 		.setColor(sideColor)
@@ -116,6 +116,8 @@ const generateAllCdEmbed = (user) => {
 	const allCooldownsEmbed = new Discord.MessageEmbed()
 		.setTitle(`${username}'s cooldowns`)
 		.setColor(sideColor)
+		.setFooter('Make sure to vote for the bot!')
+		.setTimestamp()
 		.addFields(
 			{
 				name: "Current status",

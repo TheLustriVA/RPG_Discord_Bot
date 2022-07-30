@@ -41,7 +41,7 @@ const getPlayerPosition = async (discordId, criteria = "hero.currentExp")=>{
 const generateTip = ()=> {
 	let string = "Tip: ";
 	const strings = [
-		"Supporting Mega RPG on Patreon lowers your cooldown and gives you ingame benefits!",
+		"Supporting Ultimate RPG on Patreon lowers your cooldown and gives you ingame benefits!",
 		"You can gain gold by fishing!",
 		"Your elo rating is only affected by staking other players!",
 		"Fighting a miniboss is easier if your hero has a high rank!",

@@ -51,7 +51,7 @@ const icons = {
 	"Large Healing Potion": { name: ":syringe:", icon:"💉" },
 	"Enourmous Healing Potion": { name: ":scarf:", icon:"🧣" },
 	"Quality Healing Potion": { name: ":pill:", icon:"💊" },
-	"Mega Healing Potion": { name: ":school_satchel:", icon:"🎒" },
+	"RPG Healing Potion": { name: ":school_satchel:", icon:"🎒" },
 	"Ultra Healing Potion": { name: ":drop_of_blood:", icon:"🩸" },
 	"Small Healing Salve": { name: ":rose:", icon:"🌹" },
 	"Large Healing Salve": { name: ":maple_leaf:", icon:"🍁" },

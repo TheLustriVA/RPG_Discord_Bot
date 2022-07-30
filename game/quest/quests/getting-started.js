@@ -5,7 +5,7 @@ const allItems = require("../../items/all-items");
 module.exports = {
 	buildMine: {
 		name: "Build a Mine",
-		description: "Welcome to Mega-RPG %username%, where only the sky's the limit!\n\nYour first objective is to __build a Mine__ and __collect 5 copper ore__. \n\nYou can build a Mine with the command `!build mine` and it will passively collect ores depending on the level of the Mine. A level 0 Mine will collect 1 copper ore per minute, and can be collected with the command `!collect`. Mines are crucial for rapid expansion and in production of an unbeatable army! \nType `!quest` when you're finshed",
+		description: "Welcome to Ultimate RPG %username%, where only the sky's the limit!\n\nYour first objective is to __build a Mine__ and __collect 5 copper ore__. \n\nYou can build a Mine with the command `!build mine` and it will passively collect ores depending on the level of the Mine. A level 0 Mine will collect 1 copper ore per minute, and can be collected with the command `!collect`. Mines are crucial for rapid expansion and in production of an unbeatable army! \nType `!quest` when you're finshed",
 		objective: "Build: Mine level 0\nCollect: 5 Copper Ore.\nEnter the command `!quest %questIndex%` when you are finished.",
 		reward: "Gold: 30\nCopper Ore: 5",
 		winDescription: "A Mine will help you build new structures in your empire! To see the different available buildings type the command `!build`. If you are not pleased with one of your buildings you can remove it with the command `!destroy <building_name>`.\n\n**A new quest is available**. To check it out, type `!quest`",

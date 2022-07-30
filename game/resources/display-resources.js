@@ -41,6 +41,8 @@ const displayResources = (user) => {
 	const embedResources = new Discord.MessageEmbed()
 		.setTitle(username)
 		.setColor(sideColor)
+		.setFooter('Aliases: Bal, and Balance')
+		.setTimestamp()
 		.addFields(
 			...fields,
 		);

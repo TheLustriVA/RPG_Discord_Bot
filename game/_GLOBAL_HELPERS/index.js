@@ -88,7 +88,7 @@ const calculateGoldGained = (user, taxOfficeBuilding, now) => {
 };
 
 const getWelcomeMessage = (user) => {
-	return `Welcome to Mega-RPG, ${user.account.username}!\n\nIt's recommended to start by completing the tutorial quest line.\nYou can start it by typing \`!quest\` in the chat. To see all available commands you can type \`!help\` or to get a more detailed version of what the commands do type \`!info\`!\n\nGood luck adventurer!`;
+	return `Welcome to Ultimate RPG, ${user.account.username}!\n\nIt's recommended to start by completing the tutorial quest line.\nYou can start it by typing \`!quest\` in the chat. To see all available commands you can type \`!help\` or to get a more detailed version of what the commands do type \`!info\`!\n\nGood luck adventurer!`;
 };
 
 const createNewUser = (user, channelId) => {
