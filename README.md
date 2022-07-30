@@ -1,62 +1,121 @@
-Come play with us for free at our [support server](https://discord.gg/BHrHQfs6Mm)
+Æ
+**__INFO__**
+Ultimate RPG is a game where you as a player can build an empire, recruit an army and together with your hero you can conquer the world. Explore the area around your kingdom and hunt the animals, raid nearby villages or fight other players in epic PvP duels!
 
-OR [invite](https://discordapp.com/oauth2/authorize?client_id=721024429345341560&scope=bot&permissions=1074121792) the bot to your own server!
+**__GET STARTED__**
+It is recommended to follow the `!quest` guidelines to get into the game
 
-# MEGA RPG
-
-[![Discord Bots](https://top.gg/api/widget/status/721024429345341560.svg)](https://top.gg/bot/721024429345341560)
-
-[![Build Status](https://travis-ci.org/Three-Horned-Helmet/mega-rpg.svg?branch=master)](https://travis-ci.org/Three-Horned-Helmet/mega-rpg)
-
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4d263688effd49c2b04dae98b985e1db)](https://www.codacy.com/gh/Three-Horned-Helmet/mega-rpg?utm_source=github.com&utm_medium=referral&utm_content=Three-Horned-Helmet/mega-rpg&utm_campaign=Badge_Grade)
-
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
----
-
-## Donations and Support
-
-Support our bot on [Patreon](https://www.patreon.com/megarpg) and receive in-game benefits, 
-
-or donate to our [PayPal](https://www.paypal.com/paypalme/megarpg) account and help us keeping the servers alive.
-
----
-
-## Get started
-
-1. [Join](https://discord.gg/BHrHQfs6Mm) a discord server that has the bot or [invite](https://discordapp.com/oauth2/authorize?client_id=721024429345341560&scope=bot&permissions=1074121792) the bot to your own server.
-2. There's over 30 commands available, try typeing `!help` or `!quest` to get you started.
-3. If you get stuck, you can always type `!info` to get a DM about the commands!
+**__BUILDINGS:__**
+__Archery:__ Recruitment of archers
+__Armorer:__ Crafting of high end expensive equipment primarily used by your hero
+__Barracks:__ Recruitment of foot soilders
+__Blacksmith:__ Crafting of cheap weaponry in high quantities for your army
+__Forge:__ Crafting of metal bars like Bronze Bar and Iron Bar
+__House:__ Increases your max population
+__Lumbermill:__ Production of wood like Oak Wood
+__Mine:__ Production of ores like Copper ores
+__Shop:__ Buying of consumables like healing potions for your hero
 
 
-## Intro
+**__COMMANDS:__**
+__Army:__
+`!army` => Returns all owned units, equipment, hero and total army strength (including inventory)
 
-In Mega-RPG you can build a city and explore the surroundings with your hero and army. You are able to do quests, kill minibosses and drop epic loot during your adventures! If you are brave enough you will also be able to raid dungeons, but be warned you may need the help from other adventurers to take it down!
+__Build:__
+`!build` => Returns all available buildings and their prices
+`!build [buildingName]` => Builds the building on any open spots on the grid (!build farm)
+`!build [buildingName] -u` => Upgrades the lowest level of the building (!build farm -u)
+`!build [buildingName] [coordinates]` => Builds the building on the coordinates (2 numbers seperated by .). Upgrades the building if the coords are taken (!build farm 1.1)
 
-The Game is set in a fantasy-medieval universe and the journey begins in a kingdom tyrannized by a Bandit King and his Impling helpers. The citizens of the kingdom has lost all hope, but some try their best to live their lives. You are a master of your own empire, but with an army and a hero you may be able to help the citizens and bring down the Bandit King!
+__Buy:__
+`!buy` => Returns all available items in your shop
+`!buy [itemName]` => Buys the item from the shop (!buy small healing potion)
 
-The game is in an early development stage, but we are continuously expanding the game with more quests and features. If you see something you like (or dislike), please let us know by creating a post on our official Discord support server, or send us a message directly.
-Any feedback or bug-reports are highly appreciated!
+__Cooldowns:__
+`!cooldown` => An overview of the actions that are currently on cooldown
 
-A big thanks to everyone that has helped us with the early testing!
+__Collect:__
+`!collect` => Collects all collectable resources
+`!collect [building]` => Collects the resources from these specific buildings (!collect mine)
+Æ
 
-## How to run Mega-RPG locally
+__Craft:__
+`!craft` => Returns all available items that you can craft and their costs
+`!craft [item]` => Crafts 1 of the specified item (!craft bronze sword)
+`!craft [item] [amount]` => Crafts the x amount of the specified item (!craft bronze sword 5)
 
-1. Install [NodeJS](https://nodejs.org/en/download/).
-2. Install [MongoDB Community](https://docs.mongodb.com/manual/installation/#mongodb-community-edition-installation-tutorials).
-3. [Clone](https://github.com/Three-Horned-Helmet/mega-rpg.git) the project from github OR run: `$ git clone https://github.com/Three-Horned-Helmet/mega-rpg.git`
-4. `$ cd mega-rpg`
-5. `$ touch .env`
-4. `$ npm install`
-6. Modify the `.env` file according to your needs. This file should be held secret and not shared on Github or any other platform. A personal Discord Token can be obtained from [Discord Developer](https://discord.com/developers/applications). The `DISCORD_PREFIX` value represent what your bot should listen to. Eg `DISCORD_PREFIX=!` will listen to any commands that starts with `!` ==> `!profile` will return the profile of whoever wrote the command.
-7. `$ mongod` run the mongodb deamon
-8. `$ npm start` start the project. A 'Ready!' will be logged to the terminal upon success
+__Dailyprize:__
+`!dailyPrize` => A daily prize that could be collected every 24 hours
 
----
+__Destroy:__
+`!destroy <buildingName> => Removes the specified building from your empire.
 
-## Run tests
+__Duel:__
+`!duel [@user]` => Duels the user in a friendly full army battle without losses (!duel @SpinningSiri)
 
-1. Install the project by following the steps over
-2. `$ npm test`
+__Dungeon:__
+`!dungeon` => Triggers a dungeon run
 
----
+__Equip:__
+`!equip` => Returns all available equipment and their stats that you have in your armory
+`!equip [itemName]` => Equips your hero with the specified item (!equip bronze sword)
+
+__Fish:__
+`!fish` => Let's the player do fishing
+
+__Explore:__
+`!explore` => Allows you to explore the area around your current location. You can find places to raid, fish, hunt etc
+
+__Grid:__
+`!grid` => Returns the grid that has all the users buildings displayed (!grid)
+
+__Hunt:__
+`!Hunt` => Allows the player to hunt a random, already explored, 'Hunting place'. Hunting is often easier than raiding, but only done with your hero.
+`!Hunt [placeName]` => Hunts the specific place that was entered if it has been explored
+
+__Look:__
+`!look` => Returns the explored area in your current location
+
+__Produce:__
+`!produce` => Returns the available resources that you are able to produce
+`!produce [resource]` => Collects the resource type and starts producing the specified resource (!produce yew wood)
+
+__Profile:__
+`!profile` => Returns a overview of your profile or `!profile @username` to see a player's profile
+Æ
+
+__Quest:__
+`!quest` => Returns the quest's description/winDescription if you only have 1 quest available, otherwise returns all available quests
+`!quest [questIndex]` => Returns the quest with the corresponding index's description/winDescription
+`!quest [questName]` => Returns the quest with the given name's description/winDescription
+
+__Race:__
+`!race` => Triggers a race where players can win money
+
+__Rank:__
+`!rank` => Let's you see who has the most xp on whole Mega RPG.
+
+__Raid:__
+`!raid` => Allows the player to raid a random, already explored, 'raiding place'. Raiding is usually more difficult than hunting and is done with your whole army.
+`!raid [placeName]` => Raids the specific place that was entered if it has been explored
+
+__Recruit:__
+`!recruit` => Returns all available units that can be recruited and all their prices and stats
+`!recruit [unitName]` => Recruits 1 of the specified unit (!recruit archer)
+`!recruit [unitName] [amount]` => Recruits the specified amount of the unit (!recruit archer 5)
+
+__Resources:__
+`!resources` => Returns all your resources (!resources)
+
+__Shortcuts:__
+`!<command> shortcuts` => Returns all the available shortcuts for the given command. (!build shortcuts)
+
+__Stake:__
+`!stake [@player]` => Stakes another player that must accept the challenge. Loser loses an aritfact item and 20% hero exp, winner gets it. (!stake @SpinningSiri)
+
+__Use:__
+`!use [itemName]` => Uses the specified item (consumable). (!use small healing potion)
+
+__Weeklyprize:__
+`!weeklyPrize` => A weekly prize that could be collected every 7 days
+Æ

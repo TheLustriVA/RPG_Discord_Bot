@@ -6,10 +6,7 @@
   "scripts": {
     "debug": "nodemon --inspect index.js",
     "dev": "nodemon index.js",
-    "postinstall": "sh postinstall.sh",
-    "dev": "nodemon index.js",
-    "start": "node index.js",
-    "test": "export NODE_ENV=test && nyc mocha --exit './test/**/*.test.js'"
+    "postinstall": "sh postinstall.sh"
   },
   "author": "Tormod & Markus",
   "license": "ISC",
