@@ -1,4 +1,12 @@
-# Change Log 
+# Change Log 1.0.2
 
-- [ ] 
+- [x] Added fishing command 
+- [x] Added more stuff to build 
+- [x] Added a better grid
+- [x] Added a universal leaderboard
 
+
+# To-Do 
+
+- [ ] Fix help command
+- [ ] Make a alliance command
